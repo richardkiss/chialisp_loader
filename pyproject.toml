@@ -4,7 +4,7 @@ description = "Provides `load_puzzle` which dynamic rebuilds if `chialisp_builde
 authors = [{name = "Richard Kiss", email = "him@richardkiss.com"}]
 license = {file = "LICENSE"}
 readme = "README.md"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = ["clvm_rs"]
 
 [build-system]

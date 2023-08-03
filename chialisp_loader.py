@@ -4,7 +4,7 @@ from clvm_rs import Program
 
 
 try:
-    from runtime_builder.builder import build_on_demand
+    from runtime_builder import build_on_demand
 except ImportError:
     # `runtime_builder` is an optional dependency for development only
     def build_on_demand(*args):
