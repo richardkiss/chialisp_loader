@@ -1,4 +1,4 @@
-from importlib.resources import as_file, files, Package
+from importlib_resources import as_file, files, Package
 
 from clvm_rs import Program
 
